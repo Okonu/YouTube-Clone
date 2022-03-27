@@ -10,40 +10,86 @@
         <title>Youtube Clone with HTML & CSS </title>
     </head>
     <body>
-        <header class="header">.</header>
+        <header class="header">
+            <div class="logo left">
+                <i id="menu" class="material-icons">menu</i>
+                <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+            </div>
+            <div class="search center">
+                <form action="">
+                    <input type="text" placeholder="Search" />
+                    <button>
+                        <i class="material-icons">search</i>
+                    </button>
+                </form>
+                <i class="material-icons mic">mic</i>
+            </div>
+            <div class="icons right">
+                <i class="material-icons">videocam</i>
+                <i class="material-icons">apps</i>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons display-this">account_circle</i>
+            </div>
+        </header>
         <main>
-            <div class="side-bar">.</div>
-            <div class="content">.</div>
+                <div class="side-bar">
+                    <div class="nav">
+                    <a class="nav-link active">
+                            <i class="material-icons">home</i>
+                            <span>Home</span>
+                        </a>
+                    <a class="nav-link">
+                            <i class="material-icons">local_fire_department</i>
+                            <span>Trending</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">subscriptions</i>
+                        <span>Subscriptions</span>
+                </a>
+                <!--div class="nav">
+                <hr-->
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="videos">
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Introverts & Content Creation | Okonu Okonu
+                                </h3>
+                                <a href="">Onoku Onoku</a>
+                                <span>2M Views . 3 Months Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- Main Body Ends-->
     
-        <div class="side-bar">
-            <div class="nav">
-                <a class="nav-link active">
-                    <i class="material-icons">home</i>
-                    <span>Home</span>
-                </a>
-            <a class="nav-link">
-                <i class="material-icons">subcriptions</i>
-                <span>Subscriptions</span>
-            </a>
-        </div>
-        <hr>
-        <a class="nav-link">
-            <i class="material-icons">library_add_check</i>
-            <span>Library</span>
-        <a class="nav-link">
-            <i class="material-icons">history</i>
-            <span>History</span>
-        <a class="nav-link">
-            <i class="material-icons">play_arrow</i>
-            <span>Your Videos</span>
-        <a class="nav-link">
-            <i class="material-icons">watch_later</i>
-            <span>Watch Later</span>
-        <a class="nav-link">
-            <i class="material-icons">thumb_up</i>
-            <span>Liked Videos</span>
-        </div>
+        
+
     </body>
 </html>
